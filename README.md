@@ -47,4 +47,4 @@
 <br>Steps To Setup:<br>
 ----------------------
 - Expose the ArgoCD UI using a Kubernetes LoadBalancer service and retrieve the ArgoCD UI URL and login using the initial password.
-- Git repository containing the YAML manifests for the app, including the Kubernetes Deployment, Service and other resources.[link](https://github.com/anshuhtwt/Voting-App-Manifests)
+- For git repository containing the YAML manifests for the app, including the Kubernetes Deployment, Service and other resources.[click here](https://github.com/anshuhtwt/Voting-App-Manifests)
