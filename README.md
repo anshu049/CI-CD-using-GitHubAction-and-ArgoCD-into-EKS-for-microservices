@@ -26,4 +26,3 @@
 - Install and configure the AWS Command Line Interface (CLI) to interact with EKS cluster.
 - Install kubectl to manage Kubernetes resources.
 - Install argocd CLI to interact with ArgoCD.
-- Update kube-config to get access to EKS resources using kubectl.
