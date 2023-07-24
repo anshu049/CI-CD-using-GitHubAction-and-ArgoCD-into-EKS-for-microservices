@@ -22,9 +22,7 @@
 ----------------------
 - Launch an ec2 instance for running Jenkins and add port 8080 in security group of the instance to access Jenkins.
 - Connect to instance and install Jenkins, Git and Docker.
-- Install these plugins:
-- Docker
-- Docker Pipeline 
+- Install plugins: Docker and Docker-Pipeline 
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 <br>CONTINUOUS-DELIVERY<br>
