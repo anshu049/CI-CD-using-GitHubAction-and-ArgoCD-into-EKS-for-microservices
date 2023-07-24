@@ -18,3 +18,9 @@
 <img width="1315" alt="CD-PART" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/a84c7362-bff1-4d4a-8910-ec4f8bdfc051">
 
 <br> **CD-PART** <br>
+
+<br> **Prerequisites:** <br>
+- Install and configure the AWS Command Line Interface (CLI) to interact with EKS cluster.
+- Install kubectl to manage Kubernetes resources.
+- Install argocd CLI to interact with ArgoCD.
+- Update kube-config to get access to EKS resources using kubectl.
