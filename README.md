@@ -1,6 +1,7 @@
 <br>ARCHITECTURE<br>
 ====================
 <img width="764" alt="voting-app-latest" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/c1a8030c-5129-4e19-913c-5a2686677686">
+
 - The app consists of five components: Voting-App, Redis, Worker, Postgres and Result-App.
 - Voting-App: A web interface for users to cast their votes.
 - Redis: A Redis database to store the vote counts.
@@ -16,6 +17,8 @@
 <br>CONTINUOUS-INTEGRATION<br>
 ==============================
 <img width="1019" alt="CI-Part" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/f061aa58-7f74-46ee-9d3e-17500c924425">
+
+- 
 
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
