@@ -18,8 +18,13 @@
 ==============================
 <img width="1019" alt="CI-Part" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/f061aa58-7f74-46ee-9d3e-17500c924425">
 
-- 
-
+<br>Installation:<br>
+----------------------
+<br> 1)Launch an ec2 instance for running Jenkins and add port 8080 in security group of the instance to access Jenkins.<br>
+<br> 2)Connect to instance and install Jenkins, Git and Docker.<br>
+<br> 3)Install these plugins:
+- Docker
+- Docker Pipeline 
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 <br>CONTINUOUS-DELIVERY<br>
