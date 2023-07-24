@@ -43,3 +43,6 @@
 - Install kubectl to manage Kubernetes resources.
 - Install argocd CLI to interact with ArgoCD.
 - Setup EKS cluster and install ArgoCD.
+
+<br>Steps To Setup:<br>
+----------------------
