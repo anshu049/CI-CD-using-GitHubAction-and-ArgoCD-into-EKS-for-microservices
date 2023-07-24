@@ -22,7 +22,14 @@
 ----------------------
 - Launch an ec2 instance for running Jenkins and add port 8080 in security group of the instance to access Jenkins.
 - Connect to instance and install Jenkins, Git and Docker.
-- Install plugins: Docker and Docker-Pipeline 
+- Install plugins: Docker and Docker-Pipeline
+
+
+<br>Configurations:<br>
+-----------------------
+- Add jenkins as user to docker group so that jenkins can run docker command for building image and pushing it to docker hub.
+- Add jenkins user to sudoers file so that password is not asked while performing some tasks by jenkins user.
+- Add docker hub credentials.
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 <br>CONTINUOUS-DELIVERY<br>
