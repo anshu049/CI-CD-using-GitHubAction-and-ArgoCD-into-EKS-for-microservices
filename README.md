@@ -21,7 +21,7 @@
 
 <br>Pipeline Setup:<br>
 -----------------------
-1) Access Jenkins UI using initial paasword and add docker hub credentials.
+<br> 1) Access Jenkins UI using initial paasword and add docker hub credentials.<br>
 
 <img width="1440" alt="docker hub credentials" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/d4fece18-95ed-4db7-80e7-d210f05cc872">
 
