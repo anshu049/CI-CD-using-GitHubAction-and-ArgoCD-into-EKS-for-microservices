@@ -4,10 +4,9 @@ pipeline {
     environment {
         IMAGE1 = "voting-app"
         IMAGE2 = "result-app"
-        ORGANIZATION_NAME = "anshuhtwt"
         DOCKERHUB_USERNAME = "anshuhtwt"
-        REPOSITORY_TAG1 = "${DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${IMAGE1}:${BUILD_ID}"
-        REPOSITORY_TAG2 = "${DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${IMAGE2}:${BUILD_ID}"
+        REPOSITORY_TAG1 = "${DOCKERHUB_USERNAME}/${IMAGE1}:${BUILD_ID}"
+        REPOSITORY_TAG2 = "${DOCKERHUB_USERNAME}/${IMAGE2}:${BUILD_ID}"
     }
    
     stages {
