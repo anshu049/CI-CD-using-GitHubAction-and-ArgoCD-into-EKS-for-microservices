@@ -13,6 +13,8 @@
 
 
 
+
+
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 <br>CONTINUOUS-INTEGRATION<br>
 ==============================
@@ -25,7 +27,19 @@
 
 <img width="1440" alt="docker hub credentials" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/d4fece18-95ed-4db7-80e7-d210f05cc872">
 
-- 
+<br> 2) Create a new job and select Multibranch Pipeline.<br>
+
+<img width="1439" alt="name of project" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/8bc09b6b-521b-4aed-8187-8474b937f8f1">
+
+<br> 3) Add github url and save.<br>
+
+<img width="1440" alt="git url" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/fb2667ed-918b-43d5-999a-e82fc5ae0d57">
+
+<br> 4) If everything goes right and build is successful then we can see the output of different stages of Jenkinsfile.<br>
+
+<img width="1439" alt="stages" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/8daa2175-d637-43b4-b76c-42fa9e0595bb">
+
+
 
 
 
