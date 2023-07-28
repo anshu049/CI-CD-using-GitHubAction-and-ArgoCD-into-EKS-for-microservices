@@ -39,7 +39,7 @@
 
 <br> 5) If everything goes right and build is successful then we can see the output of different stages of Jenkinsfile.<br>
 
-<img width="1439" alt="stages" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/8daa2175-d637-43b4-b76c-42fa9e0595bb">
+<img width="903" alt="stages" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/cbea4381-ed38-436a-8d53-91c2f9f9bd8d">
 
 
 
