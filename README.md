@@ -70,7 +70,7 @@
 - Install argocd CLI to interact with ArgoCD.
 - Setup EKS cluster and install ArgoCD (I have setup EKS cluster manually with the help of CloudFormation but will be adding terraform code to automate this).
 
-<br>Steps To Setup:<br>
+<br>Setup:<br>
 ----------------------
 - Expose the ArgoCD UI using a Kubernetes LoadBalancer service and retrieve the ArgoCD UI URL and login using the initial password and create application using [this](https://github.com/anshuhtwt/Voting-App-Manifests/blob/master/application.yaml) yaml file.
 
