@@ -18,7 +18,7 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 <br>CONTINUOUS-INTEGRATION<br>
 ==============================
-<br>The aim of this part is to build the latest image as the per the change made in application code and push it DockerHub.<br>
+<br>**The aim of this part is to build the latest image as the per the change made in application code and push it DockerHub.**<br>
 
 <img width="1019" alt="CI-Part" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/f061aa58-7f74-46ee-9d3e-17500c924425">
 
