@@ -68,7 +68,7 @@
 - Install and configure the AWS Command Line Interface (CLI) to interact with EKS cluster.
 - Install kubectl to manage Kubernetes resources.
 - Install argocd CLI to interact with ArgoCD.
-- Setup EKS cluster and install ArgoCD.
+- Setup EKS cluster and install ArgoCD (I have setup EKS cluster manually with the help of CloudFormation but will be adding terraform code to automate this).
 
 <br>Steps To Setup:<br>
 ----------------------
