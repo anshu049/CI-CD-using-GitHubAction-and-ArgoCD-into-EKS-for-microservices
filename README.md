@@ -71,4 +71,7 @@
 <br>Steps To Setup:<br>
 ----------------------
 - Expose the ArgoCD UI using a Kubernetes LoadBalancer service and retrieve the ArgoCD UI URL and login using the initial password.
+
+<img width="664" alt="Argo UI" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/50020b18-ab65-40bc-b6c0-4d64ceb9073c">
+
 - For git repository containing the YAML manifests for the app, including the Kubernetes Deployment, Service and other resources [click here](https://github.com/anshuhtwt/Voting-App-Manifests).
