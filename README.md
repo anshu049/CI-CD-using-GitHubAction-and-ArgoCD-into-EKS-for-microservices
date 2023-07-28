@@ -23,7 +23,7 @@
 
 <br>Pipeline Setup:<br>
 -----------------------
-<br> 1) All the installation and configuration part is included in user-data file for jenkins instance inside this repo itself [click here](https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/blob/master/Terraform-code-for-Jenkins-Setup/user-data-instance1.tpl).<br>
+<br> 1) All the installation and configuration part is included in user-data file for jenkins instance inside this repo itself [click here](https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/blob/master/Terraform-code-to-setup-Jenkins/user-data-instance1.tpl).<br>
 
 <br> 2) Access Jenkins UI using initial paasword and add docker hub credentials.<br>
 
