@@ -18,18 +18,12 @@
 ==============================
 <img width="1019" alt="CI-Part" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/f061aa58-7f74-46ee-9d3e-17500c924425">
 
-<br>Installation:<br>
-----------------------
-- Launch an ec2 instance for running Jenkins and add port 8080 in security group of the instance to access Jenkins.
-- Connect to instance and install Jenkins, Git and Docker.
-- Install plugins: Docker and Docker-Pipeline
 
-
-<br>Configurations:<br>
+<br>Pipeline Setup:<br>
 -----------------------
-- Add jenkins as user to docker group so that jenkins can run docker command for building image and pushing it to docker hub.
-- Add jenkins user to sudoers file so that password is not asked while performing some tasks by jenkins user.
-- Add docker hub credentials.
+- Access Jenkins UI using initial paasword and add docker hub credentials.
+- <img width="1440" alt="docker hub credentials" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/d4fece18-95ed-4db7-80e7-d210f05cc872">
+
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 <br>CONTINUOUS-DELIVERY<br>
