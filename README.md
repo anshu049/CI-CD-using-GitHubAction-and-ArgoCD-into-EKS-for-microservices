@@ -20,7 +20,9 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 <br>TOOLS USED AND WHY<br>
 ==========================
-<br>**Tools used are Jenkins and ArgoCD  .**<br>
+- Tools used are Jenkins(for CI part) and ArgoCD(for CD part).
+- Jenkins can be also used for CD but I have used ArgoCD as it provides
+fxgcghvjb
 
 
 
