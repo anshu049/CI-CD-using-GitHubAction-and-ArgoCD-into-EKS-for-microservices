@@ -23,10 +23,10 @@
 <br> 1)Tools used are Jenkins(for CI part) and ArgoCD(for CD part).<br>
 <br> 2)Jenkins can be also used for CD but I have used ArgoCD as it provides<br>
 
-- Built in RBAC.
-- TLS encryption.
-- Git based authentication.
-- Vulnerability scanner.
+  - Built in RBAC.
+  - TLS encryption.
+  - Git based authentication.
+  - Vulnerability scanner.
 
 
 
