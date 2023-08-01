@@ -20,9 +20,8 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 <br>TOOLS USED AND WHY<br>
 ==========================
-- Tools used are Jenkins(for CI part) and ArgoCD(for CD part).<br>
-- Jenkins can be also used for CD but I have used ArgoCD as it provides<br>
-
+- Tools used are Jenkins(for CI part) and ArgoCD(for CD part).
+- Jenkins can be also used for CD but I have used ArgoCD as it provides
   - Built in RBAC.
   - TLS encryption.
   - Git based authentication.
