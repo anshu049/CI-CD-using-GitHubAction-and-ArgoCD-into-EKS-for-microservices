@@ -8,15 +8,16 @@
 - Worker: A background worker to process votes from Redis and store results in Postgres.
 - Postgres: A Postgres database to store the vote results.
 - Result-App: A web interface to display real-time vote count results.
+
 <br>**I have used two LoadBalancer and if the services increase further we can use Ingress Controller for limiting LoadBalancer as it is costly.**<br> 
 
 
 
 
 
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 <br>TOOLS USED AND WHY<br>
 ==========================
 - Tools used are Jenkins(for CI part) and ArgoCD(for CD part).
@@ -97,4 +98,3 @@
 <img width="1440" alt="votingapp" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/b771bd9a-0415-4470-ba62-e52681b8023a">
 
 <img width="1440" alt="resultapp" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/4a8dda99-766c-44c6-95e0-cf92d978eda3">
-
