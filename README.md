@@ -43,7 +43,7 @@
 
 <br>Pipeline Setup:<br>
 -----------------------
-<br> 1)All the installation and configuration part is included in user-data file for jenkins instance inside this repo itself [click here](https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/blob/master/Terraform-code-to-setup-Jenkins/user-data-instance1.tpl).<br>
+<br> 1)All the installation and configuration part is included in user-data file for jenkins instance inside this repo itself [click here](https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/tree/master/Terraform-code-to-setup-Jenkins).<br>
 
 <br> 2)Install plugin Docker and Docker-Pipeline.<br>
 
