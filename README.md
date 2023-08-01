@@ -8,7 +8,6 @@
 - Worker: A background worker to process votes from Redis and store results in Postgres.
 - Postgres: A Postgres database to store the vote results.
 - Result-App: A web interface to display real-time vote count results.
-
 <br>**I have used two LoadBalancer and if the services increase further we can use Ingress Controller for limiting LoadBalancer as it is costly.**<br> 
 
 
