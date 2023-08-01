@@ -18,6 +18,17 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+<br>TOOLS USED AND WHY<br>
+==========================
+<br>**Tools used are Jenkins and ArgoCD  .**<br>
+
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 <br>CONTINUOUS-INTEGRATION<br>
 ==============================
 <br>**The aim of this part is to build the latest image as the per the change made in application code and push it DockerHub.**<br>
@@ -47,7 +58,6 @@
 <br> 5) If everything goes right and build is successful then we can see the output of different stages of Jenkinsfile.<br>
 
 <img width="1138" alt="stages" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/27e4c958-7194-49b0-9979-82ad90b6cf53">
-
 
 
 
