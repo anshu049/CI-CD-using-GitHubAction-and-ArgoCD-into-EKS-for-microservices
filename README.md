@@ -43,24 +43,26 @@
 
 <br>Pipeline Setup:<br>
 -----------------------
-<br> 1) All the installation and configuration part is included in user-data file for jenkins instance inside this repo itself [click here](https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/blob/master/Terraform-code-to-setup-Jenkins/user-data-instance1.tpl).<br>
+<br> 1)All the installation and configuration part is included in user-data file for jenkins instance inside this repo itself [click here](https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/blob/master/Terraform-code-to-setup-Jenkins/user-data-instance1.tpl).<br>
 
-<br> 2) Access Jenkins UI using initial paasword and add docker hub credentials.<br>
+<br> 2)Install plugin Docker and Docker-Pipeline.<br>
+
+<br> 3)Access Jenkins UI using initial paasword and add docker hub credentials.<br>
 
 <img width="1440" alt="docker hub credentials" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/01d0b339-ba5f-40a7-986e-9b07b19fc534">
 
 
-<br> 3) Create a new job and select Multibranch Pipeline.<br>
+<br> 4)Create a new job and select Multibranch Pipeline.<br>
 
 <img width="1439" alt="name of project" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/73fe2eaa-9e72-4262-8b32-8f699262157c">
 
 
-<br> 4) Add github url and save.<br>
+<br> 5)Add github url and save.<br>
 
 <img width="1440" alt="git url" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/e6c7f9cb-7d1f-4e1a-874e-d815b086bb29">
 
 
-<br> 5) If everything goes right and build is successful then we can see the output of different stages of Jenkinsfile.<br>
+<br> 6)If everything goes right and build is successful then we can see the output of different stages of Jenkinsfile.<br>
 
 <img width="1138" alt="stages" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/27e4c958-7194-49b0-9979-82ad90b6cf53">
 
