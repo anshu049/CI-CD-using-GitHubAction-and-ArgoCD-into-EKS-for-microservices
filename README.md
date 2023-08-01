@@ -20,9 +20,9 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 <br>TOOLS USED AND WHY<br>
 ==========================
-- Tools used are Jenkins(for CI part) and ArgoCD(for CD part).
-- Jenkins can be also used for CD but I have used ArgoCD as it provides
-fxgcghvjb
+<br> 1)Tools used are Jenkins(for CI part) and ArgoCD(for CD part).<br>
+<br> 2)Jenkins can be also used for CD but I have used ArgoCD as it provides<br>
+- 
 
 
 
@@ -83,7 +83,7 @@ fxgcghvjb
 - Setup EKS cluster and install ArgoCD (I have setup EKS cluster manually with the help of CloudFormation but will be adding terraform code to automate this).
 
 <br>Setup:<br>
-----------------------
+--------------
 - Expose the ArgoCD UI using a Kubernetes LoadBalancer service and retrieve the ArgoCD UI URL and login using the initial password and create application using [this](https://github.com/anshuhtwt/Voting-App-Manifests/blob/master/application.yaml) yaml file.
 
 <img width="1440" alt="argoui" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/199637e5-8346-4d7c-b6b9-5924921ca27d">
