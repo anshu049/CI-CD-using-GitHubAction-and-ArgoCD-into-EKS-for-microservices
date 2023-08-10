@@ -5,7 +5,7 @@ metadata:
 spec:
   podSelector:
     matchLabels:
-      app: voting-app-deploy
+      app: voting-app-pod
   policyTypes:
   - Ingress
   - Egress
