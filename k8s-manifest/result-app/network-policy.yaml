@@ -5,7 +5,7 @@ metadata:
 spec:
   podSelector:
     matchLabels:
-      app: result-app-deploy
+      app: result-app-pod
   policyTypes:
   - Ingress
   - Egress
@@ -15,7 +15,7 @@ spec:
   - to:
     - podSelector:
         matchLabels:
-          app: postgres-deploy
+          app: postgres-pod
     ports:
     - protocol: TCP
       port: 5432
