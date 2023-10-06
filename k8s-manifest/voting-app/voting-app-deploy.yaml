@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
       - name: voting-app
-        image: anshuhtwt/vote-va
+        image: anshuhtwt/voting-app
         ports:
         - containerPort: 80
