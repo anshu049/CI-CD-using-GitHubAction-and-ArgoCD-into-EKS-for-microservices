@@ -3,6 +3,12 @@
 ![Infra-ss](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/2a3852d1-8854-488a-82e3-ac3c627ed240)
 
 - AWS Infrastructure Automation to automate a variety of tasks, such as creating and managing Amazon Elastic Kubernetes Service (Amazon EKS) clusters, node groups, and virtual private clouds (VPCs).
+- The project includes the following modules:
+   - aws_eks_cluster: This module creates and manages Amazon EKS clusters.
+   - aws_eks_node_group: This module creates and manages Amazon EKS node groups.
+   - vpc: This module creates and manages VPCs.
+   - backend: This module configures the Terraform backend.
+   - provider: This module configures the Terraform provider.
 
 
 
