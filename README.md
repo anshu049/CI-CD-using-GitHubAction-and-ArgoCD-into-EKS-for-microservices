@@ -1,8 +1,8 @@
 <br>INFRASTRUCTURE USING TERRAFORM<br>
 ======================================
+- AWS Infrastructure Automation to automate a variety of tasks, such as creating and managing Amazon Elastic Kubernetes Service (Amazon EKS) clusters, node groups, and virtual private clouds (VPCs).
 ![Infra-ss](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/2a3852d1-8854-488a-82e3-ac3c627ed240)
 
-- AWS Infrastructure Automation to automate a variety of tasks, such as creating and managing Amazon Elastic Kubernetes Service (Amazon EKS) clusters, node groups, and virtual private clouds (VPCs).
 
 
 
