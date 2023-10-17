@@ -1,14 +1,14 @@
 <br>TOOLS USED AND WHY<br>
 ==========================
-- Terraform for creating infrastructure on AWS.
-- GitHub Action for CI part.
-- ArgoCD for CD part.
-- GitHub Action can be also used for CD but I have used ArgoCD as it provides:
-  - GitOps Workflow.
-  - Specialized for Kubernetes Environments.
-  - Resource Health Checks.
-  - Multi-Cluster and Multi-Tenancy Support.
-  - Continuous Sync and Rollbacks.
+<br>**- Terraform for creating infrastructure on AWS.**<br>
+<br>**- GitHub Action for CI part.**<br>
+<br>**- ArgoCD for CD part.**<br>
+<br>**- GitHub Action can be also used for CD but I have used ArgoCD as it provides:**<br>
+  <br>**- GitOps Workflow.**<br>
+  <br>**- Specialized for Kubernetes Environments.**<br>
+  <br>**- Resource Health Checks.**<br>
+  <br>**- Multi-Cluster and Multi-Tenancy Support.**<br>
+  <br>**- Continuous Sync and Rollbacks.**<br>
 
 
 
@@ -19,13 +19,13 @@
 ======================================
 ![Infra-ss](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/2a3852d1-8854-488a-82e3-ac3c627ed240)
 
-- AWS Infrastructure Automation to automate a variety of tasks, such as creating and managing Amazon Elastic Kubernetes Service (Amazon EKS) clusters, node groups, and virtual private clouds (VPCs).
-- The project includes the following modules:
-   - aws_eks_cluster: This module creates and manages Amazon EKS clusters.
-   - aws_eks_node_group: This module creates and manages Amazon EKS node groups.
-   - vpc: This module creates and manages VPCs.
-   - backend: This module configures the Terraform backend.
-   - provider: This module configures the Terraform provider.
+<br>**- AWS Infrastructure Automation to automate a variety of tasks, such as creating and managing Amazon Elastic Kubernetes Service (Amazon EKS) clusters, node groups, and virtual private clouds (VPCs).**<br>
+<br>**- The project includes the following modules:**<br>
+   - aws_eks_cluster: This module creates and manages Amazon EKS clusters.**<br>
+   - aws_eks_node_group: This module creates and manages Amazon EKS node groups.**<br>
+   - vpc: This module creates and manages VPCs.**<br>
+   - backend: This module configures the Terraform backend.**<br>
+   - provider: This module configures the Terraform provider.**<br>
 
 
 
@@ -72,16 +72,16 @@
 
 <br>Setup:<br>
 --------------
-- Installed and configured the AWS Command Line Interface (CLI) to interact with EKS cluster.
-- Installed kubectl to manage Kubernetes resources.
-- Installed argocd CLI to interact with ArgoCD.
-- Installed ArgoCD inside existing Kubernetes cluster.
-- Expose the ArgoCD UI using a Kubernetes LoadBalancer service and retrieve the ArgoCD UI URL and login using the initial password and create application using [this](https://github.com/anshuhtwt/Voting-App-Manifests/blob/master/application.yaml) yaml file.
+**<br>- Installed and configured the AWS Command Line Interface (CLI) to interact with EKS cluster.**<br>
+**<br>- Installed kubectl to manage Kubernetes resources.**<br>
+**<br>- Installed argocd CLI to interact with ArgoCD.**<br>
+**<br>- Installed ArgoCD inside existing Kubernetes cluster.**<br>
+**<br>- Expose the ArgoCD UI using a Kubernetes LoadBalancer service and retrieve the ArgoCD UI URL and login using the initial password and create application using [this](https://github.com/anshuhtwt/Voting-App-Manifests/blob/master/application.yaml) yaml file.**<br>
 
 ![Argo UI](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/511bb9fc-1b78-407a-934d-076329868e5d)
 
 
-- Access voting and result app using LoadBalancer attached to it.
+**<br>- Access voting and result app using LoadBalancer attached to it.**<br>
 
 ![Vote UI](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/10ca6727-e26d-4b5c-b52b-4801eaacc4c7)
 
