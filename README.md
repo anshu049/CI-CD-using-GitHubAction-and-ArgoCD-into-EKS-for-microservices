@@ -76,15 +76,12 @@
 <img width="1315" alt="CD-PART" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/a84c7362-bff1-4d4a-8910-ec4f8bdfc051">
 
 
-<br>Prerequisites:<br>
-----------------------
+<br>Setup:<br>
+--------------
 - Installed and configured the AWS Command Line Interface (CLI) to interact with EKS cluster.
 - Installed kubectl to manage Kubernetes resources.
 - Installed argocd CLI to interact with ArgoCD.
 - Installed ArgoCD inside existing Kubernetes cluster.
-
-<br>Setup:<br>
---------------
 - Expose the ArgoCD UI using a Kubernetes LoadBalancer service and retrieve the ArgoCD UI URL and login using the initial password and create application using [this](https://github.com/anshuhtwt/Voting-App-Manifests/blob/master/application.yaml) yaml file.
 
 ![Argo UI](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/511bb9fc-1b78-407a-934d-076329868e5d)
@@ -94,8 +91,7 @@
 
 ![Vote UI](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/10ca6727-e26d-4b5c-b52b-4801eaacc4c7)
 
-
-
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  
+
 ![Result UI](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/98630dd4-5b2f-4b67-b406-b7413ac0c61c)
 
