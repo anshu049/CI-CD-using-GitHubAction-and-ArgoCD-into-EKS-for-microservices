@@ -1,9 +1,9 @@
 <br>TOOLS USED AND WHY<br>
 ==========================
-<br>**- Terraform for creating infrastructure on AWS.**<br>
-<br>**- GitHub Action for CI part.**<br>
-<br>**- ArgoCD for CD part.**<br>
-<br>**- GitHub Action can be also used for CD but I have used ArgoCD as it provides:**<br>
+**- Terraform for creating infrastructure on AWS.**
+**- GitHub Action for CI part.**
+**- ArgoCD for CD part.**
+**- GitHub Action can be also used for CD but I have used ArgoCD as it provides:**
   - GitOps Workflow.
   - Specialized for Kubernetes Environments.
   - Resource Health Checks.
