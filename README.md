@@ -36,12 +36,13 @@
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 <br>TOOLS USED AND WHY<br>
 ==========================
-- Tools used are Jenkins(for CI part) and ArgoCD(for CD part).
-- Jenkins can be also used for CD but I have used ArgoCD as it provides
-  - Built in RBAC.
-  - TLS encryption.
-  - Git based authentication.
-  - Vulnerability scanner.
+- Tools used are GitHub Action(for CI part) and ArgoCD(for CD part).
+- GitHub Action can be also used for CD but I have used ArgoCD as it provides
+  - GitOps Workflow.
+  - Specialized for Kubernetes Environments.
+  - Resource Health Checks.
+  - Multi-Cluster and Multi-Tenancy Support.
+  - Continuous Sync and Rollbacks.
 
 
 
@@ -54,7 +55,8 @@
 ==============================
 <br>**The aim of this part is to build the latest image as the per the change made in application code and push it DockerHub.**<br>
 
-<img width="1019" alt="CI-Part" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/f061aa58-7f74-46ee-9d3e-17500c924425">
+![CI PART 2](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/dec4b8bc-aa36-473e-b274-bd3d831ab84e)
+
 
 
 <br>Pipeline Setup:<br>
