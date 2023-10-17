@@ -57,9 +57,9 @@
 ![CI PART 2](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/dec4b8bc-aa36-473e-b274-bd3d831ab84e)
 
 
-<br>**- Trigger Condition:**<br>
+**- Trigger Condition:**
    - The workflow is initiated automatically upon every push event to the master branch, ensuring that image builds are synchronized with updates in the repository.
-- Execution Environment:
+**- Execution Environment:**
    - The workflow executes on the latest version of the Ubuntu environment, leveraging the ubuntu-latest runner for a reliable and up-to-date platform.
 - Repository Code Retrieval:
    - The initial step involves fetching the latest codebase from the repository, ensuring that the subsequent image builds are based on the most current source.
