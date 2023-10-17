@@ -39,9 +39,9 @@
 - The app consists of five components: Voting-App, Redis, Worker, Postgres and Result-App.
    - **Voting-App:** A web interface for users to cast their votes.
    - **Redis:** A Redis database to store the vote counts.
-   - Worker: A background worker to process votes from Redis and store results in Postgres.
-   - Postgres: A Postgres database to store the vote results.
-   - Result-App: A web interface to display real-time vote count results.
+   - **Worker:** A background worker to process votes from Redis and store results in Postgres.
+   - **Postgres:** A Postgres database to store the vote results.
+   - **Result-App:** A web interface to display real-time vote count results.
 
 <br>**(I have used two LoadBalancer and if the services increase further we can use Ingress Controller for limiting LoadBalancer as it is costly).**<br> 
 
@@ -57,22 +57,22 @@
 ![CI PART 2](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/dec4b8bc-aa36-473e-b274-bd3d831ab84e)
 
 
-**- Trigger Condition:**
+- **Trigger Condition:**
      - The workflow is initiated automatically upon every push event to the master branch, ensuring that image builds are synchronized with updates in the repository.
      
-**- Execution Environment:**
+- **Execution Environment:**
      - The workflow executes on the latest version of the Ubuntu environment, leveraging the ubuntu-latest runner for a reliable and up-to-date platform.
      
-**- Repository Code Retrieval:**
+- **Repository Code Retrieval:**
      - The initial step involves fetching the latest codebase from the repository, ensuring that the subsequent image builds are based on the most current source.
      
-**- Docker Buildx Setup:**
+- **Docker Buildx Setup:**
      - The workflow establishes the Docker Buildx environment, a critical component for enabling the creation of multi-platform Docker images. This capability broadens the compatibility of the resulting images.
      
-**- Secure Docker Hub Authentication:**
+- **Secure Docker Hub Authentication:**
      - The workflow securely logs in to Docker Hub using the provided secrets, namely DOCKERHUB_USERNAME and DOCKERHUB_PASSWORD. This authentication step ensures that the subsequent image uploads are authorized and secure.
      
-**- Image Build and Push:**
+- **Image Build and Push:**
      - The workflow undertakes the actual image creation and publishing process. It encompasses the construction and dissemination of Docker images for the following components: "voting-app", "worker", and "result-app". Each image is meticulously tagged with specific identifiers, including the repository name, username, and a unique run ID.
 
 
