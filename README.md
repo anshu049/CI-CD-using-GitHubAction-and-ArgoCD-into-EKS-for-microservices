@@ -53,6 +53,7 @@
 <br>CONTINUOUS-INTEGRATION<br>
 ==============================
 <br>**The aim of this part is to build the latest image as the per the change made in application code and push it DockerHub.**<br>
+---------------------------------------------------------------------------------------------------------------------------------------
 
 ![CI PART 2](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/dec4b8bc-aa36-473e-b274-bd3d831ab84e)
 
@@ -64,8 +65,9 @@
 <br>CONTINUOUS-DELIVERY<br>
 ===========================
 <br>For git repository containing all the Manifests for the app, including the Kubernetes Deployment, Service and other resources [click here](https://github.com/anshuhtwt/Voting-App-Manifests).<br>
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
 <br>**The aim of this part is to pull the latest change made in manifests and sync cluster with updated manifests.**<br>
+---------------------------------------------------------------------------------------------------------------------------------------
 
 <img width="1315" alt="CD-PART" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/a84c7362-bff1-4d4a-8910-ec4f8bdfc051">
 
