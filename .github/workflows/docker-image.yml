@@ -10,39 +10,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v1
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
 
-    - name: Login to Docker Hub
-      uses: docker/login-action@v1
-      with:
-        username: ${{ secrets.DOCKERHUB_USERNAME }}
-        password: ${{ secrets.DOCKERHUB_PASSWORD }}
-  
-    - name: Run tests for voting-app
-    run: cd vote/ && pytest
-    
-    - name: Run tests for result-app
-    run: cd result/ && python manage.py test
-    
-    - name: Fail workflow if tests fail
-    if: ${{ steps.run-tests-for-voting-app.exit_code != 0 || steps.run-tests-for-result-app.exit_code != 0 }}
-    run: |
-    echo "Tests failed. Workflow will stop."
-    exit 1
-    
+      - name: Login to Docker Hub
+        uses: docker/login-action@v1
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
-    - name: Build and Push Images
-      env:
-        IMAGE1: voting-app
-        IMAGE2: result-app
-        REPOSITORY_TAG1: ${{ secrets.DOCKERHUB_USERNAME }}/voting-app:${{ github.run_id }}
-        REPOSITORY_TAG2: ${{ secrets.DOCKERHUB_USERNAME }}/result-app:${{ github.run_id }}
-      run: |
-        docker build -t $REPOSITORY_TAG1 vote/
-        docker push $REPOSITORY_TAG1
-        docker build -t $REPOSITORY_TAG2 result/
-        docker push $REPOSITORY_TAG2
+      - name: Run tests for voting-app
+        run: cd vote/ && pytest
+
+      - name: Run tests for result-app
+        run: cd result/ && python manage.py test
+
+      - name: Fail workflow if tests fail
+        if: ${{ steps.run-tests-for-voting-app.exit_code != 0 || steps.run-tests-for-result-app.exit_code != 0 }}
+        run: |
+          echo "Tests failed. Workflow will stop."
+          exit 1
+
+      - name: Build and Push Images
+        env:
+          IMAGE1: voting-app
+          IMAGE2: result-app
+          REPOSITORY_TAG1: ${{ secrets.DOCKERHUB_USERNAME }}/voting-app:${{ github.run_id }}
+          REPOSITORY_TAG2: ${{ secrets.DOCKERHUB_USERNAME }}/result-app:${{ github.run_id }}
+        run: |
+          docker build -t $REPOSITORY_TAG1 vote/
+          docker push $REPOSITORY_TAG1
+          docker build -t $REPOSITORY_TAG2 result/
+          docker push $REPOSITORY_TAG2
