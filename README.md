@@ -6,6 +6,23 @@
 
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+<br>TOOLS USED AND WHY<br>
+==========================
+- Terraform for creating infrastructure on AWS.
+- GitHub Action for CI part.
+- ArgoCD for CD part.
+- GitHub Action can be also used for CD but I have used ArgoCD as it provides:
+  - GitOps Workflow.
+  - Specialized for Kubernetes Environments.
+  - Resource Health Checks.
+  - Multi-Cluster and Multi-Tenancy Support.
+  - Continuous Sync and Rollbacks.
+
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 <br>INFRASTRUCTURE USING TERRAFORM<br>
 ======================================
 ![Infra-ss](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/2a3852d1-8854-488a-82e3-ac3c627ed240)
@@ -35,21 +52,6 @@
 - Result-App: A web interface to display real-time vote count results.
 
 <br>**I have used two LoadBalancer and if the services increase further we can use Ingress Controller for limiting LoadBalancer as it is costly.**<br> 
-
-
-
-
-
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-<br>TOOLS USED AND WHY<br>
-==========================
-- Tools used are GitHub Action(for CI part) and ArgoCD(for CD part).
-- GitHub Action can be also used for CD but I have used ArgoCD as it provides
-  - GitOps Workflow.
-  - Specialized for Kubernetes Environments.
-  - Resource Health Checks.
-  - Multi-Cluster and Multi-Tenancy Support.
-  - Continuous Sync and Rollbacks.
 
 
 
