@@ -19,13 +19,13 @@
 ======================================
 ![Infra-ss](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/2a3852d1-8854-488a-82e3-ac3c627ed240)
 
-<br>**- AWS Infrastructure Automation to automate a variety of tasks, such as creating and managing Amazon Elastic Kubernetes Service (Amazon EKS) clusters, node groups, and virtual private clouds (VPCs).**<br>
-<br>**- The project includes the following modules:**<br>
-  <br>**- aws_eks_cluster: This module creates and manages Amazon EKS clusters.**<br>
-  <br>**- aws_eks_node_group: This module creates and manages Amazon EKS node groups.**<br>
-  <br>**- vpc: This module creates and manages VPCs.**<br>
-  <br>**- backend: This module configures the Terraform backend.**<br>
-  <br>**- provider: This module configures the Terraform provider.**<br>
+- AWS Infrastructure Automation to automate a variety of tasks, such as creating and managing Amazon Elastic Kubernetes Service (Amazon EKS) clusters, node groups, and virtual private clouds (VPCs).
+- The project includes the following modules:
+  - aws_eks_cluster: This module creates and manages Amazon EKS clusters.
+  - aws_eks_node_group: This module creates and manages Amazon EKS node groups.
+  - vpc: This module creates and manages VPCs.
+  - backend: This module configures the Terraform backend.
+  - provider: This module configures the Terraform provider.
 
 
 
@@ -36,12 +36,12 @@
 ===================================
 <img width="764" alt="voting-app-latest" src="https://github.com/anshuhtwt/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/c1a8030c-5129-4e19-913c-5a2686677686">
 
-<br>**- The app consists of five components: Voting-App, Redis, Worker, Postgres and Result-App.**<br>
-  <br>**- Voting-App: A web interface for users to cast their votes.**<br>
-  <br>**- Redis: A Redis database to store the vote counts.**<br>
-  <br>**- Worker: A background worker to process votes from Redis and store results in Postgres.**<br>
-  <br>**- Postgres: A Postgres database to store the vote results.**<br>
-  <br>**- Result-App: A web interface to display real-time vote count results.<br>**
+- The app consists of five components: Voting-App, Redis, Worker, Postgres and Result-App.
+   - Voting-App: A web interface for users to cast their votes.
+   - Redis: A Redis database to store the vote counts.
+   - Worker: A background worker to process votes from Redis and store results in Postgres.
+   - Postgres: A Postgres database to store the vote results.
+   - Result-App: A web interface to display real-time vote count results.
 
 <br>**(I have used two LoadBalancer and if the services increase further we can use Ingress Controller for limiting LoadBalancer as it is costly).**<br> 
 
