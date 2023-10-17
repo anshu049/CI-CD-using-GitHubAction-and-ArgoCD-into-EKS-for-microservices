@@ -1,3 +1,5 @@
+<br>For git repository containing the YAML manifests for the app, including the Kubernetes Deployment, Service and other resources [click here](https://github.com/anshuhtwt/Voting-App-Manifests).<br>
+
 <br>INFRASTRUCTURE USING TERRAFORM<br>
 ======================================
 ![Infra-ss](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/2a3852d1-8854-488a-82e3-ac3c627ed240)
@@ -84,8 +86,6 @@
 
 ![Argo UI](https://github.com/anshu049/CI-CD-using-Jenkins-and-ArgoCD-into-EKS-for-microservices/assets/95365748/511bb9fc-1b78-407a-934d-076329868e5d)
 
-
-- For git repository containing the YAML manifests for the app, including the Kubernetes Deployment, Service and other resources [click here](https://github.com/anshuhtwt/Voting-App-Manifests).
 
 - Access voting and result app using LoadBalancer attached to it.
 
