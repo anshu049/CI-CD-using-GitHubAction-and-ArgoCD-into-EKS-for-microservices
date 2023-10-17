@@ -13,6 +13,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Run tests
+        run: ./result/tests/tests.sh
+
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
 
