@@ -58,17 +58,17 @@
 
 
 **Trigger Condition:**
-   <br>- The workflow is initiated automatically upon every push event to the master branch, ensuring that image builds are synchronized with updates in the repository.<br>
+   - The workflow is initiated automatically upon every push event to the master branch, ensuring that image builds are synchronized with updates in the repository.<br>
 **Execution Environment:**
-   - The workflow executes on the latest version of the Ubuntu environment, leveraging the ubuntu-latest runner for a reliable and up-to-date platform.
-<br>**-Repository Code Retrieval:**<br>
-   - The initial step involves fetching the latest codebase from the repository, ensuring that the subsequent image builds are based on the most current source.
-<br>**-Docker Buildx Setup:**<br>
-   - The workflow establishes the Docker Buildx environment, a critical component for enabling the creation of multi-platform Docker images. This capability broadens the compatibility of the resulting images.
-<br>**-Secure Docker Hub Authentication:**<br>
-   - The workflow securely logs in to Docker Hub using the provided secrets, namely DOCKERHUB_USERNAME and DOCKERHUB_PASSWORD. This authentication step ensures that the subsequent image uploads are authorized and secure.
-<br>**-Image Build and Push:**<br>
-   - The workflow undertakes the actual image creation and publishing process. It encompasses the construction and dissemination of Docker images for the following components: "voting-app", "worker", and "result-app". Each image is meticulously tagged with specific identifiers, including the repository name, username, and a unique run ID.
+   - The workflow executes on the latest version of the Ubuntu environment, leveraging the ubuntu-latest runner for a reliable and up-to-date platform.<br>
+**Repository Code Retrieval:**
+   - The initial step involves fetching the latest codebase from the repository, ensuring that the subsequent image builds are based on the most current source.<br>
+**Docker Buildx Setup:**
+   - The workflow establishes the Docker Buildx environment, a critical component for enabling the creation of multi-platform Docker images. This capability broadens the compatibility of the resulting images.<br>
+**Secure Docker Hub Authentication:**
+   - The workflow securely logs in to Docker Hub using the provided secrets, namely DOCKERHUB_USERNAME and DOCKERHUB_PASSWORD. This authentication step ensures that the subsequent image uploads are authorized and secure.<br>
+**Image Build and Push:**
+   - The workflow undertakes the actual image creation and publishing process. It encompasses the construction and dissemination of Docker images for the following components: "voting-app", "worker", and "result-app". Each image is meticulously tagged with specific identifiers, including the repository name, username, and a unique run ID.<br>
 
 
 
