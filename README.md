@@ -43,7 +43,7 @@
 <br>**- Postgres: A Postgres database to store the vote results.**<br>
 <br>**- Result-App: A web interface to display real-time vote count results.<br>**
 
-<br>**- I have used two LoadBalancer and if the services increase further we can use Ingress Controller for limiting LoadBalancer as it is costly.**<br> 
+<br>** (I have used two LoadBalancer and if the services increase further we can use Ingress Controller for limiting LoadBalancer as it is costly)**<br> 
 
 
 
