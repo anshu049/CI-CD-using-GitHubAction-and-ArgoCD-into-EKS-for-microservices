@@ -26,8 +26,8 @@ jobs:
       env:
         IMAGE1: voting-app
         IMAGE2: result-app
-        REPOSITORY_TAG1: ${{ secrets.DOCKERHUB_USERNAME }}/voting-app
-        REPOSITORY_TAG2: ${{ secrets.DOCKERHUB_USERNAME }}/result-app
+        REPOSITORY_TAG1: ${{ secrets.DOCKERHUB_USERNAME }}/voting-app:${{ github.run_id }}
+        REPOSITORY_TAG2: ${{ secrets.DOCKERHUB_USERNAME }}/result-app:${{ github.run_id }}
       run: |
         docker build -t $REPOSITORY_TAG1 vote/
         docker push $REPOSITORY_TAG1
