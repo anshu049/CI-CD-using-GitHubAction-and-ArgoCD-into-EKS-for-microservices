@@ -29,7 +29,7 @@ jobs:
         REPOSITORY_TAG1: ${{ secrets.DOCKERHUB_USERNAME }}/voting-app
         REPOSITORY_TAG2: ${{ secrets.DOCKERHUB_USERNAME }}/result-app
       run: |
-        docker buildx build -t $REPOSITORY_TAG1 vote/
+        docker build -t $REPOSITORY_TAG1 vote/
         docker push $REPOSITORY_TAG1
-        docker buildx build -t $REPOSITORY_TAG2 result/
+        docker build -t $REPOSITORY_TAG2 result/
         docker push $REPOSITORY_TAG2
