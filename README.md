@@ -4,11 +4,11 @@
 <br>**- GitHub Action for CI part.**<br>
 <br>**- ArgoCD for CD part.**<br>
 <br>**- GitHub Action can be also used for CD but I have used ArgoCD as it provides:**<br>
-  <br>**- GitOps Workflow.**<br>
-  <br>**- Specialized for Kubernetes Environments.**<br>
-  <br>**- Resource Health Checks.**<br>
-  <br>**- Multi-Cluster and Multi-Tenancy Support.**<br>
-  <br>**- Continuous Sync and Rollbacks.**<br>
+  - GitOps Workflow.
+  - Specialized for Kubernetes Environments.
+  - Resource Health Checks.
+  - Multi-Cluster and Multi-Tenancy Support.
+  - Continuous Sync and Rollbacks.
 
 
 
