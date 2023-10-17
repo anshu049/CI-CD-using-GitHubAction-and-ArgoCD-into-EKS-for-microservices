@@ -21,6 +21,19 @@ jobs:
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_PASSWORD }}
+  
+    - name: Run tests for voting-app
+    run: cd vote/ && pytest
+    
+    - name: Run tests for result-app
+    run: cd result/ && python manage.py test
+    
+    - name: Fail workflow if tests fail
+    if: ${{ steps.run-tests-for-voting-app.exit_code != 0 || steps.run-tests-for-result-app.exit_code != 0 }}
+    run: |
+    echo "Tests failed. Workflow will stop."
+    exit 1
+    
 
     - name: Build and Push Images
       env:
