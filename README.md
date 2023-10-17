@@ -1,6 +1,9 @@
 <br>For git repository containing the YAML manifests for the app, including the Kubernetes Deployment, Service and other resources [click here](https://github.com/anshuhtwt/Voting-App-Manifests).<br>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
 
 <br>INFRASTRUCTURE USING TERRAFORM<br>
 ======================================
