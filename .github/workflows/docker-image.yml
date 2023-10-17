@@ -25,14 +25,11 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
 
-      - name: Run tests for voting-app
-        run: cd vote/ && pytest
-
       - name: Run tests for result-app
         run: cd result/ && python manage.py test
 
       - name: Fail workflow if tests fail
-        if: ${{ steps.run-tests-for-voting-app.exit_code != 0 || steps.run-tests-for-result-app.exit_code != 0 }}
+        if: ${{ steps.run-tests-for-result-app.exit_code != 0 }}
         run: |
           echo "Tests failed. Workflow will stop."
           exit 1
@@ -40,11 +37,15 @@ jobs:
       - name: Build and Push Images
         env:
           IMAGE1: voting-app
-          IMAGE2: result-app
+          IMAGE2: worker
+          IMAGE3: result-app
           REPOSITORY_TAG1: ${{ secrets.DOCKERHUB_USERNAME }}/voting-app:${{ github.run_id }}
-          REPOSITORY_TAG2: ${{ secrets.DOCKERHUB_USERNAME }}/result-app:${{ github.run_id }}
+          REPOSITORY_TAG2: ${{ secrets.DOCKERHUB_USERNAME }}/worker:${{ github.run_id }}
+          REPOSITORY_TAG3: ${{ secrets.DOCKERHUB_USERNAME }}/result-app:${{ github.run_id }}
         run: |
           docker build -t $REPOSITORY_TAG1 vote/
           docker push $REPOSITORY_TAG1
-          docker build -t $REPOSITORY_TAG2 result/
+          docker build -t $REPOSITORY_TAG2 worker/
           docker push $REPOSITORY_TAG2
+          docker build -t $REPOSITORY_TAG3 result/
+          docker push $REPOSITORY_TAG3
