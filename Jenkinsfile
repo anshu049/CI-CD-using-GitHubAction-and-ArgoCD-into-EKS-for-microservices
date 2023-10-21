@@ -8,7 +8,8 @@ pipeline {
         REPOSITORY_TAG1 = "${DOCKERHUB_USERNAME}/${IMAGE1}:${BUILD_ID}"
         REPOSITORY_TAG2 = "${DOCKERHUB_USERNAME}/${IMAGE2}:${BUILD_ID}"
     }
-   
+
+    
     stages {
         stage ('Build and Push Image') {
             steps {
