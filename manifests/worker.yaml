@@ -24,7 +24,3 @@ spec:
       containers:
       - name: worker-app
         image: anshu049/worker
-      tolerations:
-      - key: "private"
-        operator: "Equal"
-        value: "true"
