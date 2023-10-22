@@ -26,11 +26,7 @@ spec:
         image: anshu049/result-app
         ports:
         - containerPort: 80
-      tolerations:
-      - key: "public"
-        operator: "Equal"
-        value: "true"
-        
+
 
 ---
 
