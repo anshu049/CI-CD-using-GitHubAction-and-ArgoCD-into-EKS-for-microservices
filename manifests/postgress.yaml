@@ -33,10 +33,6 @@ spec:
             value: "postgres"
           - name: POSTGRES_HOST_AUTH_METHOD
             value: trust
-      tolerations:
-      - key: "private"
-        operator: "Equal"
-        value: "true"
  
 
 ---
