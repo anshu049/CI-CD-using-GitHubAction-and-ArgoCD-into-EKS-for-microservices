@@ -26,10 +26,6 @@ spec:
         image: anshu049/voting-app
         ports:
         - containerPort: 80
-      tolerations:
-      - key: "public"
-        operator: "Equal"
-        value: "true"
 
        
 ---
