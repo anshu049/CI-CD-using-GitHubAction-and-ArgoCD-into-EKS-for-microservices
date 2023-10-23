@@ -26,6 +26,15 @@ spec:
         image: redis
         ports:
         - containerPort: 6379
+      affinity:  
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: private
+                operator: In
+                values:
+                - true  
         
 
 ---
