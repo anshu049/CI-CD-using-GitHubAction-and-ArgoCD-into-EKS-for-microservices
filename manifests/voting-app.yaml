@@ -34,7 +34,7 @@ spec:
               - key: public
                 operator: In
                 values:
-                - true  
+                - "true"  
 
        
 ---
