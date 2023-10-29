@@ -32,4 +32,4 @@ spec:
               - key: private
                 operator: In
                 values:
-                - true  
+                - "true"  
